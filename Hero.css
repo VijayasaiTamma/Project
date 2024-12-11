@@ -1,0 +1,30 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  background-image: url("https://savannaintl.com/wp-content/uploads/2020/12/travel-world-1.jpg"); /* Replace with your image URL */
+  background-size: cover; /* Make sure the image covers the container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+}
+
+.hero-content {
+  position: absolute;
+  top: 30%; /* Vertically center the content */
+  left: 50%; /* Horizontally center the content */
+  transform: translate(-50%, -50%); /* Center using transform */
+  text-align: center;
+  color: rgb(62, 15, 200); /* Text color for visibility */
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-top: 0;
+}

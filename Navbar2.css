@@ -1,0 +1,117 @@
+.navbar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .logo-section {
+      display: flex;
+      align-items: center;
+    }
+    
+    .logo-image {
+      height: 50px;
+      margin-right: 10px;
+    }
+    
+    .title {
+      font-size: 1.6rem;
+      font-weight: bold;
+      color: #4a12bb; /* Blue for the title */
+    }
+    
+    .nav-links {
+        list-style: none; /* Removes bullet points */
+        padding: 0; /* Removes default padding */
+        margin: 0; /* Removes default margin */
+        display: flex; /* Ensures links are displayed inline */
+        gap: 15px; /* Adds spacing between items */
+    }
+    
+    .nav-link,
+    .dropbtn {
+      font-size: 1.1rem; /* Increased font size */
+      font-weight: normal; /* Change font weight to normal */
+      padding: 12px 18px;
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #6c757d; /* Light grey background */
+      border-radius: 5px;
+      cursor: pointer;
+      border: none;
+      transition: background-color 0.3s ease, color 0.3s ease;
+  
+    }
+    
+    .nav-link:hover,
+    .dropbtn:hover {
+      background-color: #5a6268; /* Slightly darker grey on hover */
+      color: white;
+    }
+    
+    .dropdown {
+      position: relative;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #ffffff; /* White dropdown background */
+      min-width: 150px;
+      border: 1px solid #dee2e6; /* Light grey border */
+      border-radius: 5px;
+      overflow: hidden;
+      z-index: 1000;
+      flex-direction: column;
+      padding: 5px 0;
+    }
+    
+    .dropdown-content a {
+      font-size: 0.9rem; /* Increased font size for dropdown links */
+      display: block;
+      padding: 12px 18px; /* Adjust padding for consistency */
+      color: #343a40; /* Dark grey text */
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    
+    .dropdown-content a:hover {
+      background-color: #e9ecef; /* Light grey hover background */
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: flex;
+    }
+    
+    .logout {
+      font-size: 1.1rem; /* Increased font size for Logout button */
+      background-color: #dc3545; /* Red for Logout */
+    }
+    
+    .logout:hover {
+      background-color: #c82333; /* Darker red on hover */
+    }
+    
+    .nav-links .tour-bookings {
+      font-size: 1.1rem; /* Increased font size */
+      font-weight: normal; /* Change font weight to normal */
+      padding: 12px 18px;
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #6c757d; /* Light grey background */
+      border-radius: 5px;
+      cursor: pointer;
+      border: none;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    
+    .nav-links .tour-bookings:hover {
+      background-color: #5a6268; /* Slightly darker grey on hover */
+      color: white;
+    }
+    

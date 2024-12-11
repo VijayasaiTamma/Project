@@ -1,0 +1,31 @@
+.dashboard-header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://content3.jdmagicbox.com/comp/kozhikode/q3/0495px495.x495.000445706178.k9q3/catalogue/airlines-travel-agencies-puthiyara-kozhikode-travel-agents-15jpkas414.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .dashboard-header-content {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+  
+  .dashboard-header-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-header-content h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+  
